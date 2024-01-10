@@ -55,18 +55,37 @@
     <main>
       <!-- About -->
       <div class="about center">
-        <h1>Hi, I am <span class="about__name">Jeniya Richu Jacob.</span></h1>
-        <h2 class="about__role">Data Scientist</h2>
+        <h1>Hi, I'm <span class="about__name">Jeniya Richu Jacob.</span></h1>
+        <p class="about__desc">
+          I'm Jeniya Richu Jacob, a tech enthusiast in Bangalore, India, passionate about problem-solving and building innovative solutions. Currently pursuing a postgrad in Data Science at Christ University, I thrive on turning challenges into opportunities. Let's create something amazing together! 🚀 #DataScience #Innovation #ProblemSolver
+        </p>
+      
+        <!-- Contact Information -->
         <p class="about__desc">
           Bengaluru, India<br />
-          +918281574846<br />
-          jeniyarj@gmail.com | <a href="https://www.linkedin.com/in/jeniya-richu-jacob" target="_blank">LinkedIn</a> | <a href="https://github.com/jeniyarj" target="_blank">GitHub</a>
+          <a href="tel:+918281574846" class="link">+918281574846</a><br />
+          <a href="mailto:jeniyarj@gmail.com" class="link">jeniyarj@gmail.com</a>
         </p>
+      
+        <!-- Resume Link -->
+        <a href="https://your-resume-link-here" target="_blank" aria-label="Resume" class="link link--icon">
+          <i aria-hidden="true" class="far fa-file-alt"></i>
+        </a>
+      
+        <!-- LinkedIn Link -->
+        <a href="http://www.linkedin.com/in/jeniya-richu-jacob" target="_blank" aria-label="LinkedIn" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </a>
+      
+        <!-- GitHub Link -->
+        <a href="https://github.com/jeniyarj" target="_blank" aria-label="GitHub" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
       </div>
 
       <!-- Internships -->
       <section id="Internship" class="section Internship">
-        <h2 class="section__title">Internships & Certifications</h2>
+        <h2 class="section__title">Internships </h2>
 
         <div class="project">
           <h3>Generative AI Virtual Internship (Open Weaver)</h3>
@@ -132,10 +151,121 @@
       <!-- Projects -->
       <section id="projects" class="section projects">
         <h2 class="section__title">Projects</h2>
-
-        <!-- Add your projects here -->
-        <!-- Use the same structure as the template with your project details -->
+      
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Facial Emotion Recognition in Autism Spectrum Disorders</h3>
+            <p class="project__description">
+              Leading the development of a high-accuracy emotion recognition model for ASD individuals,
+              achieving a 91% accuracy rate. Employing advanced transfer learning and data augmentation
+              techniques to reduce false positives and overfitting.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Machine Learning</li>
+              <li class="project__stack-item">CNN</li>
+              <li class="project__stack-item">Streamlit</li>
+            </ul>
+      
+            <a
+              href="#"  
+              aria-label="Facial Emotion Recognition"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+      
+          <div class="project">
+            <h3>Bird Song Classification using an Efficient Net</h3>
+            <p class="project__description">
+              Created an efficient Bird Song Classification system with a 95% accuracy rate, utilizing deep
+              learning and advanced audio feature extraction algorithms. It enhanced classification precision
+              by 10% through ensemble learning.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Deep Learning</li>
+              <li class="project__stack-item">Audio Feature Extraction</li>
+              <li class="project__stack-item">Ensemble Learning</li>
+            </ul>
+      
+            <a
+              href="#"  
+              aria-label="Bird Song Classification"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+      
+          <div class="project">
+            <h3>Vehicle Detection Using OpenCV</h3>
+            <p class="project__description">
+              Developed a real-time vehicle detection system with 90% accuracy, implementing custom
+              multi-object tracking and parallelization techniques for a 40% processing time reduction.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">OpenCV</li>
+      
+            </ul>
+      
+            <a
+              href="#"  
+              aria-label="Vehicle Detection"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
       </section>
+
+      <!-- Certificates -->
+      <section class="section certificates" id="certificates">
+        <h2 class="section__title">Certificates</h2>
+      
+        <ul class="certificates__list">
+          <li class="certificates__item">
+            <span class="btn btn--plain">Google Analytics Individual Qualification</span>
+          </li>
+          <li class="certificates__item">
+            <span class="btn btn--plain">Google Analytics Certification</span>
+          </li>
+          <li class="certificates__item">
+            <span class="btn btn--plain">Data Science 101-IBM | Cognitive Class.ai</span>
+          </li>
+          <li class="certificates__item">
+            <span class="btn btn--plain">Foundations of Project Management | Coursera</span>
+          </li>
+          <li class="certificates__item">
+            <span class="btn btn--plain">Python for Data Science</span>
+          </li>
+        </ul>
+      </section>
+
 
       <!-- Skills -->
       <section class="section skills" id="skills">
@@ -145,6 +275,7 @@
           <li class="skills__list-item btn btn--plain">R</li>
           <li class="skills__list-item btn btn--plain">MATLAB</li>
           <li class="skills__list-item btn btn--plain">Machine Learning</li>
+          <li class="skills__list-item btn btn--plain">Deep Learning</li>
           <li class="skills__list-item btn btn--plain">PowerBI</li>
           <li class="skills__list-item btn btn--plain">Tableau</li>
           <li class="skills__list-item btn btn--plain">SQL</li>
